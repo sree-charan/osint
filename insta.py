@@ -22,7 +22,7 @@ def get_instagram_details(username):
             L.load_session_from_file(username, session_file)
         except FileNotFoundError:
             # If the session file doesn't exist, log in and save the session
-            L.interactive_login("sreecharanreddy_")
+            L.interactive_login("your_instagram_username_here")
             L.save_session_to_file(session_file)
 
         # Load the user profile

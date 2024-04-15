@@ -32,7 +32,6 @@ This is a web application built with Flask that allows users to retrieve, view a
 3. **Install Dependencies:**
 
         pip install -r requirements.txt
-        L.interactive_login("your_instagram_username_here")
 
 3. **Configuration**
 Before running the application, make sure to update the Instagram username in the `insta.py` file. Locate the following line in `insta.py`:

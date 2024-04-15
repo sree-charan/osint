@@ -118,7 +118,7 @@ Open your web browser and navigate to `http://localhost:5000` to access the appl
 - Enter a Reddit username in the provided input field and click the "Submit" button.
 - View the retrieved user details and recent post details.
 
-3. **YouTube:**
+4. **YouTube:**
 - Enter a YouTube username in the provided input field and click the "Submit" button.
 - View the retrieved channel details and video details.
 

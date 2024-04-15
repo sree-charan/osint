@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 import insta
 import twitt
+import redditt
 
 app = Flask(__name__)
 
@@ -18,6 +19,11 @@ def twitter():
     username = request.form['username']
     return redirect(url_for('twitter_details', username=username))
 
+@app.route('/reddit', methods=['POST'])
+def reddit():
+    username = request.form['username']
+    return redirect(url_for('reddit_details', username=username))
+
 @app.route('/instagram/<username>')
 def instagram_details(username):
     user_details, post_details = insta.get_instagram_details(username)
@@ -27,6 +33,13 @@ def instagram_details(username):
 def twitter_details(username):
     user_details= twitt.get_twitter_details(username)
     return render_template('twitt_details.html', platform='Twitter', user_details=user_details)
+
+@app.route('/reddit/<username>')
+def reddit_details(username):
+    user_details, post_details = redditt.get_reddit_details(username)
+    return render_template('reddit_details.html', platform='Reddit', user_details=user_details, post_details=post_details)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

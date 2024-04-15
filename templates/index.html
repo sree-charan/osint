@@ -84,13 +84,13 @@
         form.reddit h1 {
             color: #ff4500; /* Reddit orange */
         }
-        /* Unique styling for LinkedIn form */
-        form.linkedin {
-            /* border-top: 2px solid #0077b5; LinkedIn blue */
+        /* Unique styling for Youtube form */
+        form.youtube {
+            /* border-top: 2px solid #ff0000; Youtube Red */
             padding-top: 20px;
         }
-        form.linkedin h1 {
-            color: #0077b5; /* LinkedIn blue */
+        form.youtube h1 {
+            color: #ff0000; /* Youtube red */
         }
     </style>
 </head>
@@ -124,14 +124,14 @@
             <br>
             <input type="submit" value="Get Reddit Details">
         </form>
-        <form class="linkedin" method="POST" action="/linkedin">
-            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo">
+        <form class="youtube" method="POST" action="/youtube">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/768px-YouTube_full-color_icon_%282017%29.svg.png" alt="Youtube Logo">
             <br>
-            <label for="linkedin_username">Company Search:</label>
+            <label for="youtube_username">Youtube Search:</label>
             <br>
-            <input type="text" id="linkedin_username" name="username" required>
+            <input type="text" id="youtube_username" name="username" required>
             <br>
-            <input type="submit" value="Get LinkedIn Details">
+            <input type="submit" value="Get Youtube Details">
         </form>
     </div>
 </body>

@@ -5,8 +5,13 @@ This is a web application built with Flask that allows users to retrieve, view a
 ## Features
 
 - **Instagram Details:** Users can input an Instagram username to retrieve details such as username, full name, biography, follower count, following count, total posts, etc. The application also fetches and displays details of the user's recent posts including captions, likes, comments, and post URLs.
-  
+
 - **Twitter Details:** Similar to Instagram, users can input a Twitter username to fetch details such as screen name, real name, follower count, following count, and total tweets.
+
+- **Reddit Details:** Users can input a Reddit username to retrieve details such as username, post karma, comment karma, total posts, total comments, and the list of recent posts and comments.
+
+- **YouTube Details:** Users can input a YouTube username to retrieve details such as channel name, description, country, subscriber count, view count, video count, and the list of recent videos including titles, descriptions, published dates, thumbnails, and video IDs.
+
 
 ## Requirements
 
@@ -34,12 +39,14 @@ This is a web application built with Flask that allows users to retrieve, view a
         pip install -r requirements.txt
         L.interactive_login("your_instagram_username_here")
 
-3. **Configuration**
+4. **Configuration**
+#### Instagram
 - Before running the application, make sure to update the Instagram username in the `insta.py` file. Locate the following line in `insta.py`:
 
         L.interactive_login("your_instagram_username_here")
 
 - Replace it with your Instagram username
+#### Reddit
 
 - Similarly update the Reddit `client-id`,`client-secret`, and `user-agent` file. Locate the following line in `redditt.py`:
 
@@ -47,7 +54,7 @@ This is a web application built with Flask that allows users to retrieve, view a
                      client_secret='your_client_secret',
                      user_agent='your-user-agent')
 
-**Here is how to get the `client_id` and `client_secret` needed to authenticate with the Reddit API:**
+Here is how to get the `client_id` and `client_secret` needed to authenticate with the Reddit API:
 
 - Create a Reddit account, if you don't already have one.
 
@@ -70,11 +77,31 @@ This is a web application built with Flask that allows users to retrieve, view a
 
 - Set a User Agent: For the user_agent parameter, you need to provide a unique identifier for your application. Ex: 'reddit-user'
 
-4. **Run the Application:**
+#### Youtube
+- Also update youtube API key in the `youtubee.py` file. Locate the following line in `youtubee.py`:
+
+        api_key = 'your_youtube_api_key_here'
+
+
+- Replace it with your own YouTube API key.
+Here is how you can get `YouTube API key`
+Create a Google Cloud Platform (GCP) Project:
+
+- Go to the Google Cloud Console.
+- Create a new project or select an existing one.
+- In the Cloud Console, go to the API & Services Dashboard.
+- Click on "Enable APIs and Services".
+- Search for "YouTube Data API" and click on it.
+- Click the "Enable" button.
+- In the API & Services Dashboard, navigate to "Credentials" in the left menu.
+- Click on "Create Credentials" and select "API key".
+- Copy the generated API key.
+
+5. **Run the Application:**
 
         flask run 
 
-5. **Access the Application:**
+6. **Access the Application:**
 Open your web browser and navigate to `http://localhost:5000` to access the application.
 
 ## Usage
@@ -87,9 +114,13 @@ Open your web browser and navigate to `http://localhost:5000` to access the appl
 - Enter a Twitter username in the provided input field and click the "Submit" button.
 - View the retrieved user details.
 
-2. **Reddit:**
+3. **Reddit:**
 - Enter a Reddit username in the provided input field and click the "Submit" button.
 - View the retrieved user details and recent post details.
+
+3. **YouTube:**
+- Enter a YouTube username in the provided input field and click the "Submit" button.
+- View the retrieved channel details and video details.
 
 ## Limitations
 
@@ -100,7 +131,7 @@ Open your web browser and navigate to `http://localhost:5000` to access the appl
 
  **Homepage**
 
-![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEjGfwAOJclPcYrmKuh35axkxa_gLXLJfQao6Gw51AtDqMEZ-ivv-jpeT5D5L2BmBBvKVgZlpkelTHXBJcpP1l1EGYG2r-KRZUreqVR5-_X-5gzcIcd2Id49UsEL8mlW0rMIOGSNTrTrIrIkfn9EB7E7eyHloWpCvGSRTzigdeTtUQ-UVoQXUCXSTK83W2Gx=s16000)
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEj2XWmAG6I6okq2TVU8-TD9C0AUD5mS0h3GGM6FBboOVZ-yy4Pm-8hSvd7cTj31HsHqB-77yoOo2SbMTG8DCPXdJ5-lw7W67drTvjH9mHd_7eDiskVv3VwBQtoUUU1Y6spsvCrn8hiX3wVh2iCHIiGCMT3hhXjTapzRmMEA06WRjCSS080uwE-oCbcA2zKj=s16000)
 
  **Data Retrieved from Instagram**
 
@@ -122,13 +153,14 @@ Open your web browser and navigate to `http://localhost:5000` to access the appl
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEi_NHewpI1zFq4056L27Vw6AzWBDksDpW_KDXFLSQZG5ybEZNsQESC2oH6kvcIGQfQA1VICokCuqQBPbSCt-lC9lGljy4avJBukKcZRWjfio2xxnlxc4OPtLXVjf4AVHba1nXhEPKHAbbbu_AqJvJcNC5GQsjtQCSphs8NCiCS2fAT290Wkzgod2pObOVXE=s16000)
 
+ **Data Retrieved from YouTube**
 
-## To-Do
 
-- [ ] Implement Reddit and LinkedIn APIs.
-- [ ] Add support for fetching more detailed user information from Instagram and Twitter.
-- [ ] Improve error handling and error messages.
-- [ ] Enhance the UI/UX of the web application.
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhzhnQZaNPdT--eQ_n-HtvfpPQRP8bDkiXFTkX9KmZNXSFqCCwc7iW9gKmvTjyhoOPC4P4LCM83wNPUtni2vifzS3s0u0D1v4toIUC-QMpxBLFfV9pwF1HL0mcVaoo0DosrWmXUQnvuCxUOOlKDY6_gPg6Eq-T8WAchGsPEY8cxEm8vPAxYkuix88T3C3Dl=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhy2cJuPHCdJMO9PJhvobZXiuqUcWzzq1reVuleJz5qAx61fXqJPDvUwIAHLANpNSEcP57fyCf-fHYEei_BpWcz4BimqA2gWvAyrrriEStFZnE3JVEHm9SgUWVF49-foxMADdhbiXKeGiHJtMGt_jtlK8N_bmXJjzkA1tmPsEmN0JPfwW412VUijZhAOoED=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhz8mQ-LPZK6wH12sqi5N3Pav-SDsOAfegqkXin4pT5o2pxvZVEhv2JjdWdNTV4erORYybeDXyLyxtOMF2NtkkijTt-HVLXomgGuEwj8jfzCmr_5zJdJkGo6LQjdNvN6n0kxw_btgKVTWVXOwpYJG5aDqtkn_ZnfTTIlCXR_oXec2MyRBMMFaVi5ILgaiOR=s16000)
 
 ## Contributions
 

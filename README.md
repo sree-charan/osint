@@ -62,6 +62,28 @@ Open your web browser and navigate to `http://localhost:5000` to access the appl
 
 - While the application does not impose limitations on Instagram search queries, fetching details for users with a large number of followers or posts may result in longer response times. This delay is primarily due to the time taken by Instagram's servers to process and retrieve data for such profiles.
 
+
+## Screenshots
+
+ **Homepage**
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEjGfwAOJclPcYrmKuh35axkxa_gLXLJfQao6Gw51AtDqMEZ-ivv-jpeT5D5L2BmBBvKVgZlpkelTHXBJcpP1l1EGYG2r-KRZUreqVR5-_X-5gzcIcd2Id49UsEL8mlW0rMIOGSNTrTrIrIkfn9EB7E7eyHloWpCvGSRTzigdeTtUQ-UVoQXUCXSTK83W2Gx=s16000)
+
+ **Data Retrieved from Instagram**
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEiXiSbPACvJmusxKuKixTCl2__Bcvg1Nb045nM_qHovC_mS5mhdbsVH9eQzb77rRAyRDtnzbQkXAGQ8CXfHIqagR1y7TybqRG7z-s9nYeN5R28QUw3w7DjXMQHMHpZIc90Pf3pAw1ESSsJtbZ6S7Sv_j1SwFkIL6obGPe-f9zKVdDoa1wPkUUWHtP6l7-y8=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgCAGFf4Wtc3KM1YIhMT9a6-mHGw25ZQIdWr3pzEGiFPwnv1o64OEJ7e3dhWCwMNNWamhM5MOM1hH3iESPhncGxEUmKGjeGnGLvHQfCAYNKdBs2ZMrx-I_7ponl17V701Y3giwn77UfddJn6Dy7r688096iNGC8hSSaqV3Ie_XCWliT5to_vtgcPv6KYSwQ=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhGQ68SOPd9SqJgnCkppfpQPimYyfs4z28fyuqTUrYcFfzJ2cO68-UyGP42bCTC_weOxB_myTXp_FQjdulhWrf2WIbkH2dN5Rl_8e-ePpXvl_DklQVZwfeddZtZDCvdq3u07pOPwXMiscmyze-0T4LhmUpyJTJCk28PR6RD8SS10zfP90lWPVPvmF8y8JxJ=s16000)
+
+ **Data Retrieved from Twitter**
+
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEh0RMWFNRSEF7faGxxgeok0mECCkDo_xHtjw9HhS7xrUBzAY7s4GSZEFWOdyHeIKLhvsDF4EwLiuW9tyxWQW_hmUNUbykqMn_AGnMq6xXEWFW1MitnRBgfz6WECZABho19jviZQVyGQZgZ2TC3uNevT2Y1qiz8PW3Fd05m9_xWZS0X7fjbC647r5XnuTyX6=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgzV4WZ_GyXVbZEqsnffmxxQ6vfmoY7nmldTqztTykbnqCHDu9dSGyK9NQcDhPwc1CuxeQbFFpecnQ6_AweH2EGV6zFvBAZaAbWxoahtVU1ceXM8KOe8Z9aq8-6HTQ_TpPooO9DgH85hso0IVybsWN6hfxNcIRNByGxXYHiFZqvib5hcQT6zA2I5xFgWdA2=s16000)
+
 ## To-Do
 
 - [ ] Implement Reddit and LinkedIn APIs.

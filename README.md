@@ -162,6 +162,33 @@ Open your web browser and navigate to `http://localhost:5000` to access the appl
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhz8mQ-LPZK6wH12sqi5N3Pav-SDsOAfegqkXin4pT5o2pxvZVEhv2JjdWdNTV4erORYybeDXyLyxtOMF2NtkkijTt-HVLXomgGuEwj8jfzCmr_5zJdJkGo6LQjdNvN6n0kxw_btgKVTWVXOwpYJG5aDqtkn_ZnfTTIlCXR_oXec2MyRBMMFaVi5ILgaiOR=s16000)
 
+
+
+## Data Visualization
+
+ **Instagram**
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEiMsVaiiSozd9xxQAdtFGXRkGDiD5D9UVdbpk6advV8UvkLs8figkUNN46LxRd7ckU7CiJOPGe_8nMrMXe5x27jn-RtyFyfBxsHYi9SwtuzCqQJxNoJVqFc22RnP1jmJT35bdtZaJoia2HwB88CQ6gDbLjgP1x_VccxPplaQij6fNBTPGFxcWPu_hTVbTgr=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEibzX07ZaqeHAQA33oMORWxrBVP1NHMpibo_42zSkpox9P5-u6ibzqTEOLS2FnnKZXgUTrH4yDOZjT5UUyAOI1E2x0_J3211pGWDdTGWuMLZnM9agEWqZYteeqeb_u7_-W6_aO2scbxwa0Du89BkehbEyi-pQuo16EKea3vayCzHjBWMzRWYZlDJORfhD7g=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgQYL11twUuN51ulrozVKv3RRmtrAN2P0Y2olxBXoNoiCJEcUuqlueMkDfx9RIc896hr5XwmfSztcY2H6z2lajKxyylGSL8ZM1N4-65rgg3uJRI8P-ncjdAkV3g61811-9J-VNeZQnjjODrQDTbBAkLRP0BdqqIgb208BUKAChyisVKa5X6zaXhzx-4f-Rl=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgUs18hryUHBlLakdKIFYlqoN8DFyQ5UM8l0TMY1i0dxnLPlBtSvc7DigqJBtyTttgZX3Tw_SUgP05Isqgi8vzNtIdwPwGR0XZVVqCUm1PY8PuTjWG8wRMBUZOrkjagT4l6CE8_NLZ6eyqmdXIrDrItwFhEu9DEz7-pFdcVjyPVDXUnngi3KHK_CZD8Yfoz=s16000)
+
+ **Twitter**
+
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhbzxOtBa9Z02BAi5FfXAUFvxj4aY2YL4ZxLQK2J9SYSloW-CCuqU_SvPyqk1WRn07Okma4mGsClaUhQzRryZHwp_9vqYWfRwmXfz0L1FShLcHa6Zqa7ELRKwr0mtCgXPb9vXWWJ4U_RqR7bBR7JEvgvMo_pQ01g65ESPwkdoTktsPJNl15gELaVceKLOa_=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgORseXB2K3o9oOnxaHGXWBHt6whJQ9-omanefq84ullm_UN8Ckg0r-dKuWpp5oVAENV6K9PHEAEUz_I28vvdRcq27eVR7Xv5KRAHv33ZJgp_uEYs5at-ONIBRcNu8UIYwlm7bGpxWADmdChQZ6Xb6o3z2fgjkdXqMJwEoewErUMPfKOea6enmswlIfZl09=s16000)
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEiH72nqKd4U_AzL1Ak_DJ5iT2MS_Jnm4Z2VGspEulno5xSF2aRa4ke6X29IjVgFLrDlSZtWW-uP5dEj9GAURVnk5y41k28SDUE43NfdWJE-GL_ATpde0-iutYVi3HCUAqZ58_ekE5hH9b0m9qA8GKSSDy-eGkXiu-mt5AfMQuVxu0HrPrw-MbsL2J3br1_t=s16000)
+
+ **YouTube**
+
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhBB4SCzQzDuFkibzm4Kvo3q28-XZxhCFKYluRMHv6HYglMF7pq2Hc8EF7CSTmRynTRwYrDndIcJ6LWhOcqHUYvQDjSmzFjR-c5U54XMklFBI4ICSjWvN3gz1zeu501LG7BThBURKV4r82AtACigvcXK4jvSOAmCEtrqKy_VRBt5xmAUCRiw05XckE09Sy5=s16000)
+
 ## Contributions
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.

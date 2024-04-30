@@ -1,6 +1,10 @@
 # Open Source Intelligence Application
 
-This is a web application built with Flask that allows users to retrieve, view and visualize details from Instagram and Twitter profiles.
+This is a web application built with Flask that allows users to retrieve, view and visualize details from Instagram, Twitter, Reddit and YouTube profiles.
+
+## Project Demo
+
+[![Project Demo](https://img.youtube.com/vi/BHGjZNnLATw/0.jpg)](https://www.youtube.com/watch?v=BHGjZNnLATw)
 
 ## Features
 
@@ -37,8 +41,7 @@ This is a web application built with Flask that allows users to retrieve, view a
 3. **Install Dependencies:**
 
         pip install -r requirements.txt
-        L.interactive_login("your_instagram_username_here")
-
+        
 4. **Configuration**
 #### Instagram
 - Before running the application, make sure to update the Instagram username in the `insta.py` file. Locate the following line in `insta.py`:

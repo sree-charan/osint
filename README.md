@@ -6,8 +6,6 @@ This is a web application built with Flask that allows users to retrieve, view a
 
 [![Project Demo](https://img.youtube.com/vi/BHGjZNnLATw/0.jpg)](https://drive.google.com/file/d/1cRBEB3n6ppTSKIEQ_3M9Xd0L8VIFkHD6/view?usp=sharing)
 
-## Project Presentation 
-[![Project Demo](https://img.youtube.com/vi/gpEo_C8xTX4/0.jpg)](https://www.youtube.com/watch?v=gpEo_C8xTX4)
 
 ## Features
 
